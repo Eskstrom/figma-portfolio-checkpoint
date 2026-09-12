@@ -2,6 +2,15 @@
 
 Checkpoint: 12 September 2026. This repository records an ongoing refinement of Sumukh's original Figma projects. It is a work log, not a claim that the portfolio is finished.
 
+## Access the checkpoint
+
+- **[Open the checkpoint website](https://eskstrom.github.io/figma-portfolio-checkpoint/)** — browse project status and open each Figma design.
+- **[Read the detailed change log](https://github.com/Eskstrom/figma-portfolio-checkpoint#projects-and-changes)** — inspect changes, frame-level links and verification notes.
+- **[See where work resumes](https://github.com/Eskstrom/figma-portfolio-checkpoint#resume-order)** — review the next steps.
+- **[Return to my GitHub profile](https://github.com/Eskstrom)** — find this checkpoint alongside my other projects.
+
+The website is public and requires no sign-in. Figma files retain their own access permissions: sign in to Figma when prompted, and request access from the owner if needed. This repository documents the designs; it does not contain exported Figma source files. Status remains **checkpoint / work in progress**.
+
 ## Projects and changes
 
 ### CMU court reservations — mobile
@@ -72,3 +81,4 @@ At checkpoint, Figma Starter MCP calls were exhausted. Figma Make also reported 
 ## Website
 
 `docs/index.html` is a dependency-free GitHub Pages progress hub. Publish from the main branch `/docs` directory. The source of record for detailed changes is this README; update both the website and log as remaining work is completed.
+
