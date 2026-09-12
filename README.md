@@ -4,11 +4,11 @@
 
 **[Making AI output reviewable — read the complete project](projects/ai-workflow-review/README.md)**
 
-Original healthcare workflow interface design by Sumukh, the sole designer. Explore ten screen states, evidence-linked extraction, patient-page assignment, and the distinction between confirming a review and approving a referral.
+Original healthcare workflow interface design by Sumukh, the sole designer, developed through focused testing, shadowing, and collaboration with hospital technology and operations partners. The complete case study includes three research and design stories: evidence review, confirmation clarity, and verification recovery, alongside ten reconstructed screen states.
 
 [![AI workflow review: source evidence and editable output](projects/ai-workflow-review/assets/03-preview.png)](projects/ai-workflow-review/README.md)
 
-[Case study](projects/ai-workflow-review/CASE-STUDY.md) · [Ten-screen gallery](projects/ai-workflow-review/SCREENS.md) · [Figma board](https://www.figma.com/design/w5MWfIM7Y9mNZwHV0AfDWg?node-id=6-2) · [Public SVG board](projects/ai-workflow-review/assets/workflow-review-public.svg)
+[Case study](projects/ai-workflow-review/CASE-STUDY.md) · [Evidence review](projects/ai-workflow-review/stories/01-evidence-review.md) · [Confirmation clarity](projects/ai-workflow-review/stories/02-review-confirmation.md) · [Verification recovery](projects/ai-workflow-review/stories/03-verification-recovery.md) · [Ten-screen gallery](projects/ai-workflow-review/SCREENS.md) · [Figma board](https://www.figma.com/design/w5MWfIM7Y9mNZwHV0AfDWg?node-id=6-2) · [Public SVG board](projects/ai-workflow-review/assets/workflow-review-public.svg)
 
 Public visuals use synthetic records and document illustrations; metrics are illustrative. Original medical-document screenshots are excluded. These are static reconstructions, and Figma retains its own access permissions. Other projects below retain their existing checkpoint status.
 

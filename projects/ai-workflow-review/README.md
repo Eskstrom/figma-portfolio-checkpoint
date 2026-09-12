@@ -2,37 +2,51 @@
 
 **Healthcare workflow review · Original product design by Sumukh · Sole designer**
 
-An interface for operational teams to inspect source documents, correct extracted information, and make explicit decisions before work moves forward. The project spans ten screen states, from queue management and patient splitting to benefits verification and referral qualification.
+I designed the human review experience within a broader healthcare automation platform. Hospital operations teams needed to verify extracted information, correct exceptions, and make explicit decisions before work moved into the next workflow.
 
-[Read the case study](CASE-STUDY.md) · [Browse all ten screens](SCREENS.md) · [Open the consolidated Figma board](https://www.figma.com/design/w5MWfIM7Y9mNZwHV0AfDWg?node-id=6-2) · [Download the public SVG board](assets/workflow-review-public.svg)
+Working with hospital technology and operations partners, I translated feedback from focused testing and shadowing into three design priorities: make evidence accessible, make confirmation unambiguous, and make recovery understandable.
 
-![Source document beside editable extracted patient information](assets/03-preview.png)
+[Read the full case study](CASE-STUDY.md) · [Browse ten screens](SCREENS.md) · [Open Figma](https://www.figma.com/design/w5MWfIM7Y9mNZwHV0AfDWg?node-id=6-2) · [Download the public SVG board](assets/workflow-review-public.svg)
 
-## The design challenge
+![Source evidence beside editable extracted information](assets/03-preview.png)
 
-Healthcare documents contain different entities, relationships, and decisions. A reviewer may need to assign pages to a patient, check an extracted field against its source, or assess individual qualification criteria. The interface needs to make that particular decision clear while keeping the supporting evidence within reach.
+## Project at a glance
 
-The organizing idea is a consistent review workspace with task-specific controls: **inspect the evidence, correct the interpretation, confirm the review**.
+| Area | Scope |
+|---|---|
+| My role | Sole designer of the original workflow review experience |
+| Partners | Hospital technology and operations teams |
+| Research | Focused testing, shadowing, and partner feedback |
+| Background | Previous Firstsource BPO experience informed my attention to operational exceptions and handoffs |
+| Product scope | Intake, patient splitting, document tagging, extraction, eligibility, benefits, qualification, and team oversight |
+| Core challenge | Help people verify and act on automated output across connected workflows |
 
-## One interaction that captures the project
+## Three stories from the work
 
-The qualification screen can show **Not Qualified** while still offering **Everything looks right**. These represent two different decisions: the referral does not satisfy the criteria, and the reviewer confirms that this assessment is correct. A completed review can have a negative business outcome.
+### 1. Make evidence accessible
 
-The criteria remain visible individually, so a single overall status does not hide which requirements passed or failed. This state is particularly useful for explaining the difference between approving an AI interpretation and approving the underlying referral.
+Reviewers repeatedly searched source documents to verify extracted values. I brought evidence and editable output into one workspace, with source references, highlighting, and refocus controls. The result was less searching and fewer interruptions during verification.
 
-![Qualification review with mixed criteria and a Not Qualified final decision](assets/09-preview.png)
+[Read the evidence-review story and learning](stories/01-evidence-review.md)
 
-## My role and research context
+### 2. Make confirmation unambiguous
 
-I was the sole designer of the original work. I conducted focused testing and shadowed technical workers. My earlier experience at Firstsource, a BPO company, informed how I approached operational workflows and possible exceptions.
+A reviewer could reach an accurate **Not Qualified** result and still hesitate over **Everything looks right**. I separated review completion from the business outcome, keeping individual criteria and the final assessment explicit. The learning was that successful review does not necessarily mean a positive decision.
 
-This public case study explains the decisions visible in the design. It does not attribute a specific interface change to a particular research observation without supporting notes, or claim measured efficiency gains.
+[Read the confirmation story and learning](stories/02-review-confirmation.md)
 
-## What is included
+### 3. Make recovery understandable
 
-- Ten reconstructed screen states, with PNG previews that render directly on GitHub.
-- Individual editable SVGs and one consolidated SVG board.
-- A case study covering evidence review, page assignment, decision states, and operational oversight.
-- A screen inventory explaining what each state demonstrates.
+An unsuccessful insurance lookup needed to remain distinct from a negative coverage result. With technology and operations partners, I worked through unresolved checks, missing information, and manual verification so staff could recover and the next team could understand what had been checked.
 
-**Public asset note:** These are portfolio reconstructions of my original interface designs. Records and document previews have been replaced with synthetic examples; timing and queue metrics are illustrative. Source-document screenshots are not included. Typography and icons are approximate. These are static designs, not a working clinical application or an interactive prototype. The Figma board retains its own access permissions.
+[Read the recovery story and learning](stories/03-verification-recovery.md)
+
+## A family of review experiences
+
+The same workspace structure supports different decisions: page grids for patient assignment and tagging, editable fields for extraction, grouped information for benefits, and criteria-level review for qualification. Workflow and people views connect individual tasks to team operations.
+
+![Qualification review with a negative outcome and explicit criteria](assets/09-preview.png)
+
+## Public design package
+
+The gallery contains ten static reconstructions of my original screens, individual editable SVGs, and a consolidated board. Records and document illustrations are synthetic; dashboard metrics are illustrative. Outcomes in the case study are qualitative, with no numerical performance claims. The gallery preserves captured interface states; later refinements described in the stories are identified in their artifact notes. Typography and icons are approximate. Figma access permissions remain separate.
