@@ -1,5 +1,17 @@
 # UX / product design portfolio: checkpoint
 
+## Featured case study: AI workflow review
+
+**[Making AI output reviewable — read the complete project](projects/ai-workflow-review/README.md)**
+
+Original healthcare workflow interface design by Sumukh, the sole designer. Explore ten screen states, evidence-linked extraction, patient-page assignment, and the distinction between confirming a review and approving a referral.
+
+[![AI workflow review: source evidence and editable output](projects/ai-workflow-review/assets/03-preview.png)](projects/ai-workflow-review/README.md)
+
+[Case study](projects/ai-workflow-review/CASE-STUDY.md) · [Ten-screen gallery](projects/ai-workflow-review/SCREENS.md) · [Figma board](https://www.figma.com/design/w5MWfIM7Y9mNZwHV0AfDWg?node-id=6-2) · [Public SVG board](projects/ai-workflow-review/assets/workflow-review-public.svg)
+
+Public visuals use synthetic records and document illustrations; metrics are illustrative. Original medical-document screenshots are excluded. These are static reconstructions, and Figma retains its own access permissions. Other projects below retain their existing checkpoint status.
+
 Checkpoint: 12 September 2026. This repository records an ongoing refinement of Sumukh's original Figma projects. It is a work log, not a claim that the portfolio is finished.
 
 ## Access the checkpoint

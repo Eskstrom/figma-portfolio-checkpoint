@@ -1,0 +1,56 @@
+{
+  "screen_count": 10,
+  "data": "synthetic",
+  "screens": [
+    {
+      "screen": 1,
+      "svg": "01-screen.svg",
+      "original_embedded_images": 0
+    },
+    {
+      "screen": 2,
+      "svg": "02-screen.svg",
+      "original_embedded_images": 0
+    },
+    {
+      "screen": 3,
+      "svg": "03-screen.svg",
+      "original_embedded_images": 0
+    },
+    {
+      "screen": 4,
+      "svg": "04-screen.svg",
+      "original_embedded_images": 0
+    },
+    {
+      "screen": 5,
+      "svg": "05-screen.svg",
+      "original_embedded_images": 0
+    },
+    {
+      "screen": 6,
+      "svg": "06-screen.svg",
+      "original_embedded_images": 0
+    },
+    {
+      "screen": 7,
+      "svg": "07-screen.svg",
+      "original_embedded_images": 0
+    },
+    {
+      "screen": 8,
+      "svg": "08-screen.svg",
+      "original_embedded_images": 0
+    },
+    {
+      "screen": 9,
+      "svg": "09-screen.svg",
+      "original_embedded_images": 0
+    },
+    {
+      "screen": 10,
+      "svg": "10-screen.svg",
+      "original_embedded_images": 0
+    }
+  ]
+}
