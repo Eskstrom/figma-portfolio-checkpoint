@@ -1,19 +1,19 @@
-# UX / product design portfolio — checkpoint
+# UX / product design portfolio: checkpoint
 
 Checkpoint: 12 September 2026. This repository records an ongoing refinement of Sumukh's original Figma projects. It is a work log, not a claim that the portfolio is finished.
 
 ## Access the checkpoint
 
-- **[Open the checkpoint website](https://eskstrom.github.io/figma-portfolio-checkpoint/)** — browse project status and open each Figma design.
-- **[Read the detailed change log](https://github.com/Eskstrom/figma-portfolio-checkpoint#projects-and-changes)** — inspect changes, frame-level links and verification notes.
-- **[See where work resumes](https://github.com/Eskstrom/figma-portfolio-checkpoint#resume-order)** — review the next steps.
-- **[Return to my GitHub profile](https://github.com/Eskstrom)** — find this checkpoint alongside my other projects.
+- **[Open the checkpoint website](https://eskstrom.github.io/figma-portfolio-checkpoint/)**: browse project status and open each Figma design.
+- **[Read the detailed change log](https://github.com/Eskstrom/figma-portfolio-checkpoint#projects-and-changes)**: inspect changes, frame-level links and verification notes.
+- **[See where work resumes](https://github.com/Eskstrom/figma-portfolio-checkpoint#resume-order)**: review the next steps.
+- **[Return to my GitHub profile](https://github.com/Eskstrom)**: find this checkpoint alongside my other projects.
 
 The website is public and requires no sign-in. Figma files retain their own access permissions: sign in to Figma when prompted, and request access from the owner if needed. This repository documents the designs; it does not contain exported Figma source files. Status remains **checkpoint / work in progress**.
 
 ## Projects and changes
 
-### CMU court reservations — mobile
+### CMU court reservations: mobile
 [Original workbook](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space) · [New portfolio page](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space?node-id=4606-149)
 
 Preserved the original workbook. Created a separate `Portfolio • Product design` page with seven 390 × 844 frames, Inter typography, CMU red primary actions, consistent cards and explicit sample-data language. The flow now separates discovery, slot choice, review, confirmation, management and cancellation. Imported Simple Design System button components. Repaired body text sizing/auto-height and primary/secondary button label width after creation.
@@ -30,14 +30,14 @@ Preserved the original workbook. Created a separate `Portfolio • Product desig
 
 The seventh screen was copied from confirmation. Its headline is now “Booking cancelled.” and subtitle “Your sample slot has been released.” The next-steps card still contains confirmation instructions, and its buttons still read “Manage booking” and “Book another court.” Correct these before presentation. Prototype connections, error/empty/loading states, accessibility checks and complete frame-fit review remain outstanding. Dates and court data are illustrative; no live reservation integration exists.
 
-### CMU court reservations — smartwatch companion
+### CMU court reservations: smartwatch companion
 [Smartwatch App Prototype](https://www.figma.com/make/RGAbRr2RprARTQoGvNihJw/Smartwatch-App-Prototype)
 
 Figma Make version 3 generated a multi-step companion: sport selection, date, time, review, booking progress, confirmation, booking management and deliberate cancellation. It also reports duplicate prevention, unavailable-slot simulation, ICS export, invitation copying, reset controls and a portfolio explanation panel. Those additional features require separate verification.
 
 **Verified in the browser:** Table Tennis → Today → 9 AM → Review → Confirm → loading → Confirmed → Manage → Cancel → confirmation → Cancelled. Booking count cleared after cancellation.
 
-**Remaining:** test duplicate/recovery paths, export and sharing, keyboard access and narrow viewports. Replace or explicitly label the fixed October 13, 2025 demo date. Review currently identifies “Table 1–4”; select a specific court for an unambiguous reservation. Combine this companion with the mobile redesign in one case study. No live CMU integration or separately published deployment was created.
+**Remaining:** test duplicate/recovery paths, export and sharing, keyboard access and narrow viewports. Replace or explicitly label the fixed October 13, 2025 demo date. Review currently identifies “Table 1-4”; select a specific court for an unambiguous reservation. Combine this companion with the mobile redesign in one case study. No live CMU integration or separately published deployment was created.
 
 ### FastMail kiosk
 [Fast mail Kiosk](https://www.figma.com/make/gc3I9jqgY0XMzbZ0SOaPKp/Fast-mail-Kiosk)
@@ -46,12 +46,12 @@ A refinement prompt generated a new version 3 interface with navy/teal styling, 
 
 **Observed:** the new welcome preview and controls render. **Not yet verified:** the full journey, validation, totals, edit-return behavior, payment failure and reset behavior. Figma displayed a reconnect warning that changes would not sync until connection returned. Saving version 3 must be confirmed before it is considered durable. Do not reload an unsynced editor without preserving its work. Generated accessibility and usability assertions need an evidence review; they are not verified compliance or research results.
 
-### Con Alma — service design
+### Con Alma: service design
 [University Partnership Outreach & Engagement Workflow](https://www.figma.com/board/7XDNtOq84HYRb0v3eGOMAi/University-Partnership-Outreach---Engagement-Workflow)
 
 Inspected the blueprint covering university outreach, coupons, frontstage/backstage activities, POS validation, social amplification, repeat visits and feedback. No edits made. Next: consolidate duplicate blocks, correct labels, align lanes, add a legend and distinguish proposed actions from observed evidence.
 
-[Service Ecosystem Change and Value Flow — A](https://www.figma.com/board/G9y3K23jmz0EpD43RXctbp/Service-Ecosystem-Change-and-Value-Flow) · [Version B](https://www.figma.com/board/LMRIR8W3eCJumZlTxOMsNK/Service-Ecosystem-Change-and-Value-Flow)
+[Service Ecosystem Change and Value Flow: A](https://www.figma.com/board/G9y3K23jmz0EpD43RXctbp/Service-Ecosystem-Change-and-Value-Flow) · [Version B](https://www.figma.com/board/LMRIR8W3eCJumZlTxOMsNK/Service-Ecosystem-Change-and-Value-Flow)
 
 Both ecosystem boards were visually inspected and remain unchanged. They cover partnership activation through distribution, redemption, social amplification, loyalty and feedback. Curate these with the blueprint into one case study; preserve alternate versions. Verify bibliographic references before citing them.
 
@@ -81,4 +81,3 @@ At checkpoint, Figma Starter MCP calls were exhausted. Figma Make also reported 
 ## Website
 
 `docs/index.html` is a dependency-free GitHub Pages progress hub. Publish from the main branch `/docs` directory. The source of record for detailed changes is this README; update both the website and log as remaining work is completed.
-
