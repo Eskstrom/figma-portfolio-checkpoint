@@ -1,0 +1,205 @@
+{
+  "version": "1.0",
+  "stage": "verified",
+  "screen_count": 28,
+  "figma_file": "https://www.figma.com/design/R6I5AHFaQCs4r7FltVYoi6",
+  "figma_status": "Blank file created; further connector operations blocked by Starter-plan MCP limit.",
+  "screens": [
+    {
+      "id": "tv-01",
+      "title": "Episode complete",
+      "balance": 5,
+      "note": "Default focus: Play Episode 4. Right moves to the voluntary ad offer. No autoplay countdown in this wireframe.",
+      "mobile": false
+    },
+    {
+      "id": "tv-02",
+      "title": "Optional sponsor ad",
+      "balance": 5,
+      "note": "Prototype simulation: use the review toolbar to complete the ad. Real earning requires confirmed completion. Exit preserves the 5-token balance.",
+      "mobile": false
+    },
+    {
+      "id": "tv-03",
+      "title": "Ad reward confirmed",
+      "balance": 20,
+      "note": "Continue stays the easiest action. Scanning the QR code does not earn tokens; the optional 10-second demo does.",
+      "mobile": false
+    },
+    {
+      "id": "tv-04",
+      "title": "Continue on your phone",
+      "balance": 20,
+      "note": "The QR region is deliberately a labeled placeholder. Use “Simulate phone handoff” in the review toolbar. Back returns to TV-03.",
+      "mobile": false
+    },
+    {
+      "id": "tv-05",
+      "title": "Wallet and rewards",
+      "balance": 25,
+      "note": "Reward availability is checked for Episode 4. Prices are illustrative. HD and other premium rewards are a future exploration.",
+      "mobile": false
+    },
+    {
+      "id": "tv-06",
+      "title": "Confirm redemption",
+      "balance": 25,
+      "note": "Default focus: Cancel. Token deduction occurs only after activation succeeds. This reward skips exactly one eligible break.",
+      "mobile": false
+    },
+    {
+      "id": "tv-07",
+      "title": "Reward activated",
+      "balance": 0,
+      "note": "25 tokens spent. The benefit is reserved for Episode 4. The prototype toolbar can simulate delivery at the next eligible break.",
+      "mobile": false
+    },
+    {
+      "id": "tv-08",
+      "title": "Token activity",
+      "balance": 0,
+      "note": "Account wallet. Each transaction identifies profile and status. Reserved changes to Applied after the break is skipped.",
+      "mobile": false
+    },
+    {
+      "id": "m-01",
+      "title": "Confirm account on phone",
+      "balance": 20,
+      "note": "Signed-in account shown only after authentication. “Use another account” opens the sign-in variant.",
+      "mobile": true
+    },
+    {
+      "id": "m-02",
+      "title": "Watch sponsor demo",
+      "balance": 20,
+      "note": "Review toolbar simulates completion. Playback controls are illustrative; this wireframe has no real video.",
+      "mobile": true
+    },
+    {
+      "id": "m-03",
+      "title": "Mobile bonus confirmed",
+      "balance": 25,
+      "note": "Bonus is credited once per qualifying ad session. “Return to TV” in the review toolbar simulates cross-device sync.",
+      "mobile": true
+    },
+    {
+      "id": "m-signin",
+      "title": "Sign in to claim tokens",
+      "balance": 20,
+      "note": "Authentication is simulated. No passwords are collected or sent anywhere.",
+      "mobile": true
+    },
+    {
+      "id": "edge-wallet-20",
+      "title": "Wallet · more tokens needed",
+      "balance": 20,
+      "note": "Reward availability is checked for Episode 4. Prices are illustrative. HD and other premium rewards are a future exploration.",
+      "mobile": false
+    },
+    {
+      "id": "edge-wallet-5",
+      "title": "Wallet · more tokens needed",
+      "balance": 5,
+      "note": "Reward availability is checked for Episode 4. Prices are illustrative. HD and other premium rewards are a future exploration.",
+      "mobile": false
+    },
+    {
+      "id": "edge-wallet-0",
+      "title": "Wallet · more tokens needed",
+      "balance": 0,
+      "note": "Reward availability is checked for Episode 4. Prices are illustrative. HD and other premium rewards are a future exploration.",
+      "mobile": false
+    },
+    {
+      "id": "edge-exit",
+      "title": "Leave ad",
+      "balance": 5,
+      "note": "You won’t earn the 15 ad tokens. Your 5 existing tokens are safe.",
+      "mobile": false
+    },
+    {
+      "id": "edge-pending",
+      "title": "Reward pending",
+      "balance": 5,
+      "note": "Your 15 ad tokens are pending. Your spendable balance stays at 5 tokens until confirmation.",
+      "mobile": false
+    },
+    {
+      "id": "edge-pending-activity",
+      "title": "Pending activity",
+      "balance": 5,
+      "note": "Northstar Audio · Alex’s profile. The ad finished; confirmation is still in progress. No additional action is needed.",
+      "mobile": false
+    },
+    {
+      "id": "edge-expired",
+      "title": "QR code expired",
+      "balance": 20,
+      "note": "This claim code has expired. Your 20 tokens are safe. Generate a new code to continue with the optional demo.",
+      "mobile": false
+    },
+    {
+      "id": "edge-unavailable",
+      "title": "No reward ads",
+      "balance": 5,
+      "note": "Your episode tokens are safe. You can continue watching and check for optional reward ads another time.",
+      "mobile": false
+    },
+    {
+      "id": "edge-refund",
+      "title": "Reward refunded",
+      "balance": 25,
+      "note": "Your ad-break skip for Afterlight · Episode 4 wasn’t used within 24 hours. The tokens are available again.",
+      "mobile": false
+    },
+    {
+      "id": "edge-failed",
+      "title": "Activation failed",
+      "balance": 25,
+      "note": "No tokens were spent. Your balance is still 25 tokens. Try again or return to your rewards.",
+      "mobile": false
+    },
+    {
+      "id": "play-0",
+      "title": "Episode 4 playback",
+      "balance": 0,
+      "note": "Playback artwork and delivery are simulated. Use the review toolbar to apply a reserved ad-break skip.",
+      "mobile": false
+    },
+    {
+      "id": "play-5",
+      "title": "Episode 4 playback",
+      "balance": 5,
+      "note": "Playback artwork and delivery are simulated. Use the review toolbar to apply a reserved ad-break skip.",
+      "mobile": false
+    },
+    {
+      "id": "play-20",
+      "title": "Episode 4 playback",
+      "balance": 20,
+      "note": "Playback artwork and delivery are simulated. Use the review toolbar to apply a reserved ad-break skip.",
+      "mobile": false
+    },
+    {
+      "id": "play-25",
+      "title": "Episode 4 playback",
+      "balance": 25,
+      "note": "Playback artwork and delivery are simulated. Use the review toolbar to apply a reserved ad-break skip.",
+      "mobile": false
+    },
+    {
+      "id": "play-reserved",
+      "title": "Episode 4 playback · reserved",
+      "balance": 0,
+      "note": "Playback artwork and delivery are simulated. Use the review toolbar to apply a reserved ad-break skip.",
+      "mobile": false
+    },
+    {
+      "id": "play-applied",
+      "title": "Episode 4 playback · applied",
+      "balance": 0,
+      "note": "Playback artwork and delivery are simulated. Use the review toolbar to apply a reserved ad-break skip.",
+      "mobile": false
+    }
+  ]
+}

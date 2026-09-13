@@ -72,6 +72,14 @@ Both ecosystem boards were visually inspected and remain unchanged. They cover p
 
 Inspected the concept for randomly choosing episodes from previously watched series. No edits made. Next: clarify the user problem, eligibility and playback behavior, controls, failure states and evidence-supported design rationale.
 
+### Watch & Unlock: rewarded advertising for OTT
+
+**[Read the case study and design checkpoint](projects/watch-and-unlock/README.md)** · [28-screen gallery](projects/watch-and-unlock/SCREENS.md) · [Wireframe notes](projects/watch-and-unlock/WIREFRAMES.md) · [Verification](projects/watch-and-unlock/VERIFICATION.md)
+
+Checkpoint: 13 September 2026. A new concept explores optional sponsor engagement in exchange for tokens that unlock viewing benefits. Saved 28 grayscale TV/mobile screens and an offline click-through prototype. Verified the main 5 → 20 → 25 → 0 token journey and selected recovery paths; details and limits are in the verification notes. Three local progress checkpoints were saved; this repository includes the latest verified set.
+
+The Figma draft remains blank because the connector reached its Starter-plan tool limit. SVG import, native Figma components, and full TV remote behavior remain unfinished. Token economics and user benefits are hypotheses; no user research or measured production outcomes are claimed.
+
 ### Supporting files
 Community wireframes, Web to Figma, an arrow icon pack, FigJam basics and the team library were listed but not reviewed as independent case studies. Preserve third-party asset attribution. No additional unique project should be inferred from the workbook prototype name alone.
 
