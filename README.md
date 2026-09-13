@@ -56,7 +56,7 @@ Figma Make version 3 generated a multi-step companion: sport selection, date, ti
 
 A refinement prompt generated a new version 3 interface with navy/teal styling, Plus Jakarta Sans typography, clearer package handling and an explicit demo payment context. The generated response reports a ten-step journey: Welcome, Address, Dimensions, Weight, Handling, Pickup, Cost, Review, Payment, Confirmation. It reports address validation, itemized estimates, editable review, simulated payment failure/retry, start-over confirmation and sample/reset controls.
 
-**Observed:** the new welcome preview and controls render. **Not yet verified:** the full journey, validation, totals, edit-return behavior, payment failure and reset behavior. Figma displayed a reconnect warning that changes would not sync until connection returned. Saving version 3 must be confirmed before it is considered durable. Do not reload an unsynced editor without preserving its work. Generated accessibility and usability assertions need an evidence review; they are not verified compliance or research results.
+**Verified in version 5:** the saved revision renders; empty address validation appears; package, weight, handling, collection and speed choices are required; the estimate updates from $19.99 to $29.99 when speed changes; review editing preserves other selections; simulated payment decline and retry work; the start-over dialog preserves the order when dismissed and clears it when confirmed. Receipt copy now describes a concept handoff and does not promise an email or live tracking. The full journey still needs keyboard, responsive and physical-kiosk accessibility checks. Generated accessibility and usability assertions are not research results.
 
 ### Con Alma: service design
 [University Partnership Outreach & Engagement Workflow](https://www.figma.com/board/7XDNtOq84HYRb0v3eGOMAi/University-Partnership-Outreach---Engagement-Workflow)
@@ -81,10 +81,10 @@ The owner states these are original projects, involved research/testing with spe
 
 ## Resume order
 
-1. Confirm FastMail synchronization without discarding unsaved work.
+1. Complete FastMail keyboard, responsive and physical-kiosk accessibility checks.
 2. Finish CMU cancellation screen copy/actions; inspect every frame and connect the prototype.
 3. Verify smartwatch export, sharing, duplicates and recovery; correct date/court ambiguity.
-4. Test the entire FastMail flow and document issues before further redesign.
+4. Document any FastMail issues found during accessibility review before further redesign.
 5. Consolidate the Con Alma service-design narrative while preserving original boards.
 6. Develop the Netflix concept and collect real research artifacts for all case studies.
 
@@ -93,3 +93,4 @@ At checkpoint, Figma Starter MCP calls were exhausted. Figma Make also reported 
 ## Website
 
 `docs/index.html` is a dependency-free GitHub Pages progress hub. Publish from the main branch `/docs` directory. The source of record for detailed changes is this README; update both the website and log as remaining work is completed.
+
