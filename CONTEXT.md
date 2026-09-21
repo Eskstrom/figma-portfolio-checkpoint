@@ -8,7 +8,7 @@ The owner states these projects are original work, supported by research and tes
 
 ## Moment Comments
 
-Links: [project brief](projects/moment-comments/README.md), [Figma concept](https://www.figma.com/design/qMnajfGENfkplGhmD8pVNC/Moment-Comments-%25E2%2580%2594-AI-Timed-Short-Video-Concept?node-id=1-2), [SVG checkpoint](projects/moment-comments/assets/moment-comments-concept.svg).
+Links: [standalone repository](https://github.com/Eskstrom/moment-comments), [Figma concept](https://www.figma.com/design/qMnajfGENfkplGhmD8pVNC/Moment-Comments-%25E2%2580%2594-AI-Timed-Short-Video-Concept?node-id=1-2), [SVG checkpoint](https://github.com/Eskstrom/moment-comments/blob/main/assets/moment-comments-concept.svg).
 
 Moment Comments is a short-video interaction concept that associates discussion with the part of a video it references. A commenter can explicitly attach or confirm a moment, or AI can infer a timestamp from the comment, transcript, visual scene and clusters of related reactions. Likes rank useful representative comments after association; likes alone do not establish which moment a comment refers to.
 

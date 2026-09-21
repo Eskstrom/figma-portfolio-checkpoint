@@ -26,13 +26,13 @@ The website is public and requires no sign-in. Figma files retain their own acce
 ## Projects and changes
 
 ### Moment Comments: AI-timed short-video discussion
-[Project brief](projects/moment-comments/README.md) · [Figma concept](https://www.figma.com/design/qMnajfGENfkplGhmD8pVNC/Moment-Comments-%25E2%2580%2594-AI-Timed-Short-Video-Concept?node-id=1-2) · [Backed-up SVG board](projects/moment-comments/assets/moment-comments-concept.svg)
+[Standalone repository](https://github.com/Eskstrom/moment-comments) · [Figma concept](https://www.figma.com/design/qMnajfGENfkplGhmD8pVNC/Moment-Comments-%25E2%2580%2594-AI-Timed-Short-Video-Concept?node-id=1-2) · [Backed-up SVG board](https://github.com/Eskstrom/moment-comments/blob/main/assets/moment-comments-concept.svg)
 
 Created a mobile-first concept for keeping social reactions attached to the exact video moment they reference. The model supports two paths: people can explicitly attach or confirm a timestamp, or AI can infer a moment from ordinary comments using transcript, scene and comment-cluster context. Likes help rank representative comments but are not treated as timestamp evidence by themselves.
 
 The concept board shows a passive playback bubble, a moment-specific thread, an explicit timestamp composer and creator-facing moment intelligence. The proposed feedback loop combines bubble taps, immediate comment-feed opens, pauses, rewatches, dismissals and manual corrections. A feed open after a moment is treated as a useful correlation, not proof of intent. Future-moment comments must never appear early.
 
-**Status:** visually verified static concept. The Figma frame is editable vector content but is not yet componentized or connected as a clickable prototype. No backend, trained AI, live video integration, production moderation or user validation exists. The exported SVG is stored in this repository as a checkpoint artifact.
+**Status:** visually verified static concept. The Figma frame is editable vector content but is not yet componentized or connected as a clickable prototype. No backend, trained AI, live video integration, production moderation or user validation exists. The project brief and exported SVG are maintained in the standalone Moment Comments repository.
 
 ### CMU court reservations: mobile
 [Original workbook](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space) · [New portfolio page](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space?node-id=4606-149)
