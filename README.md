@@ -12,7 +12,7 @@ Original healthcare workflow interface design by Sumukh, the sole designer, deve
 
 Public visuals use synthetic records and document illustrations; metrics are illustrative. Original medical-document screenshots are excluded. These are static reconstructions, and Figma retains its own access permissions. Other projects below retain their existing checkpoint status.
 
-Checkpoint: 12 September 2026. This repository records an ongoing refinement of Sumukh's original Figma projects. It is a work log, not a claim that the portfolio is finished.
+Checkpoint: 20 September 2026. This repository records an ongoing refinement of Sumukh's original Figma projects. It is a work log, not a claim that the portfolio is finished.
 
 ## Access the checkpoint
 
@@ -24,6 +24,15 @@ Checkpoint: 12 September 2026. This repository records an ongoing refinement of 
 The website is public and requires no sign-in. Figma files retain their own access permissions: sign in to Figma when prompted, and request access from the owner if needed. This repository documents the designs; it does not contain exported Figma source files. Status remains **checkpoint / work in progress**.
 
 ## Projects and changes
+
+### Moment Comments: AI-timed short-video discussion
+[Project brief](projects/moment-comments/README.md) · [Figma concept](https://www.figma.com/design/qMnajfGENfkplGhmD8pVNC/Moment-Comments-%25E2%2580%2594-AI-Timed-Short-Video-Concept?node-id=1-2) · [Backed-up SVG board](projects/moment-comments/assets/moment-comments-concept.svg)
+
+Created a mobile-first concept for keeping social reactions attached to the exact video moment they reference. The model supports two paths: people can explicitly attach or confirm a timestamp, or AI can infer a moment from ordinary comments using transcript, scene and comment-cluster context. Likes help rank representative comments but are not treated as timestamp evidence by themselves.
+
+The concept board shows a passive playback bubble, a moment-specific thread, an explicit timestamp composer and creator-facing moment intelligence. The proposed feedback loop combines bubble taps, immediate comment-feed opens, pauses, rewatches, dismissals and manual corrections. A feed open after a moment is treated as a useful correlation, not proof of intent. Future-moment comments must never appear early.
+
+**Status:** visually verified static concept. The Figma frame is editable vector content but is not yet componentized or connected as a clickable prototype. No backend, trained AI, live video integration, production moderation or user validation exists. The exported SVG is stored in this repository as a checkpoint artifact.
 
 ### CMU court reservations: mobile
 [Original workbook](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space) · [New portfolio page](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space?node-id=4606-149)
@@ -89,14 +98,16 @@ The owner states these are original projects, involved research/testing with spe
 
 ## Resume order
 
-1. Complete FastMail keyboard, responsive and physical-kiosk accessibility checks.
-2. Finish CMU cancellation screen copy/actions; inspect every frame and connect the prototype.
-3. Verify smartwatch export, sharing, duplicates and recovery; correct date/court ambiguity.
-4. Document any FastMail issues found during accessibility review before further redesign.
-5. Consolidate the Con Alma service-design narrative while preserving original boards.
-6. Develop the Netflix concept and collect real research artifacts for all case studies.
+1. Turn Moment Comments into separate componentized screens and connect the core playback-to-thread prototype.
+2. Test bubble timing, frequency, comprehension and correction with short-video viewers before making usefulness claims.
+3. Complete FastMail keyboard, responsive and physical-kiosk accessibility checks.
+4. Finish CMU cancellation screen copy/actions; inspect every frame and connect the prototype.
+5. Verify smartwatch export, sharing, duplicates and recovery; correct date/court ambiguity.
+6. Document any FastMail issues found during accessibility review before further redesign.
+7. Consolidate the Con Alma service-design narrative while preserving original boards.
+8. Develop the Netflix concept and collect real research artifacts for all case studies.
 
-At checkpoint, Figma Starter MCP calls were exhausted. Figma Make also reported AI credits exhausted until September 30. Browser editing may still be possible; no paid upgrade was initiated. This commit contains documentation and the website, not an export or backup of the Figma source files. Figma links may require sign-in or file permission.
+At checkpoint, Figma Starter MCP calls were exhausted. Browser editing remained available and was used to place and export the Moment Comments concept; no paid upgrade was initiated. This repository contains documentation and selected visual exports, not Figma source files. Figma links may require sign-in or file permission.
 
 ## Website
 

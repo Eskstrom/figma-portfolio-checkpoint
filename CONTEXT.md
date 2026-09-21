@@ -1,10 +1,20 @@
 # Figma projects: portfolio context
 
-Updated 12 September 2026. This is the source-of-truth working context for the Figma work connected to Sumukh Gadavilli's UX and product design portfolio.
+Updated 20 September 2026. This is the source-of-truth working context for the Figma work connected to Sumukh Gadavilli's UX and product design portfolio.
 
 ## Evidence and authorship
 
 The owner states these projects are original work, supported by research and testing with specific user groups, and presented to professors, capstone evaluators, guides, and occasional professional contributors. Detailed methods, participant counts, findings, quotes, and measured outcomes were not supplied. This document therefore separates observed artifacts and verified prototype behavior from claims that still need evidence. Demo data is illustrative. Figma permissions remain separate from GitHub.
+
+## Moment Comments
+
+Links: [project brief](projects/moment-comments/README.md), [Figma concept](https://www.figma.com/design/qMnajfGENfkplGhmD8pVNC/Moment-Comments-%25E2%2580%2594-AI-Timed-Short-Video-Concept?node-id=1-2), [SVG checkpoint](projects/moment-comments/assets/moment-comments-concept.svg).
+
+Moment Comments is a short-video interaction concept that associates discussion with the part of a video it references. A commenter can explicitly attach or confirm a moment, or AI can infer a timestamp from the comment, transcript, visual scene and clusters of related reactions. Likes rank useful representative comments after association; likes alone do not establish which moment a comment refers to.
+
+The first concept frame contains four states: inferred bubble during playback, moment thread, explicit timestamp confirmation and creator-facing moment intelligence. Proposed learning signals include bubble taps, immediate comment-feed opens, pauses, rewatches, dismissals and timestamp corrections. Feed opens near a moment are correlational and must be combined with stronger signals before changing placement.
+
+The frame was visually verified and exported to the repository. It is a static editable-vector concept, not a connected prototype. No production AI, backend, moderation pipeline, video integration, user research or measured outcome exists. Next: split the board into componentized screens, connect the core flow, define confidence and frequency thresholds, and test comprehension and distraction with viewers.
 
 ## CMU court reservations: mobile redesign
 
