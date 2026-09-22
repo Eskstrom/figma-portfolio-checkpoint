@@ -1,115 +1,54 @@
-# UX / product design portfolio: checkpoint
+# Product & service design — Sumukh Gadavilli
 
-## Featured case study: AI workflow review
+**[Explore the visual portfolio →](https://eskstrom.github.io/)** · [GitHub profile](https://github.com/Eskstrom) · [Project context](CONTEXT.md)
 
-**[Making AI output reviewable — read the complete project](projects/ai-workflow-review/README.md)**
+Original design projects, public screen exports, and documented decisions. The website presents the work; this repository keeps the source artifacts, design stories, and verification notes organized.
 
-Original healthcare workflow interface design by Sumukh, the sole designer, developed through focused testing, shadowing, and collaboration with hospital technology and operations partners. The complete case study includes three research and design stories: evidence review, confirmation clarity, and verification recovery, alongside ten reconstructed screen states.
+## Start here: AI Workflow Review
 
-[![AI workflow review: source evidence and editable output](projects/ai-workflow-review/assets/03-preview.png)](projects/ai-workflow-review/README.md)
+[![Evidence beside editable output](projects/ai-workflow-review/assets/03-preview.png)](https://eskstrom.github.io/projects/ai-workflow-review/)
 
-[Case study](projects/ai-workflow-review/CASE-STUDY.md) · [Evidence review](projects/ai-workflow-review/stories/01-evidence-review.md) · [Confirmation clarity](projects/ai-workflow-review/stories/02-review-confirmation.md) · [Verification recovery](projects/ai-workflow-review/stories/03-verification-recovery.md) · [Ten-screen gallery](projects/ai-workflow-review/SCREENS.md) · [Figma board](https://www.figma.com/design/w5MWfIM7Y9mNZwHV0AfDWg?node-id=6-2) · [Public SVG board](projects/ai-workflow-review/assets/workflow-review-public.svg)
+As sole designer, I worked with hospital technology and operations partners on evidence review, clearer confirmation, and recovery when verification cannot provide an answer.
 
-Public visuals use synthetic records and document illustrations; metrics are illustrative. Original medical-document screenshots are excluded. These are static reconstructions, and Figma retains its own access permissions. Other projects below retain their existing checkpoint status.
+**[Read the case study](projects/ai-workflow-review/CASE-STUDY.md)** · [Ten screens](projects/ai-workflow-review/SCREENS.md) · [Design stories](projects/ai-workflow-review/stories/)
 
-Checkpoint: 20 September 2026. This repository records an ongoing refinement of Sumukh's original Figma projects. It is a work log, not a claim that the portfolio is finished.
-
-## Access the checkpoint
-
-- **[Open the checkpoint website](https://eskstrom.github.io/figma-portfolio-checkpoint/)**: browse project status and open each Figma design.
-- **[Read the detailed change log](https://github.com/Eskstrom/figma-portfolio-checkpoint#projects-and-changes)**: inspect changes, frame-level links and verification notes.
-- **[See where work resumes](https://github.com/Eskstrom/figma-portfolio-checkpoint#resume-order)**: review the next steps.
-- **[Return to my GitHub profile](https://github.com/Eskstrom)**: find this checkpoint alongside my other projects.
-
-The website is public and requires no sign-in. Figma files retain their own access permissions: sign in to Figma when prompted, and request access from the owner if needed. This repository documents the designs; it does not contain exported Figma source files. Status remains **checkpoint / work in progress**.
+Public screens are static reconstructions with synthetic records. Outcomes are qualitative and displayed metrics are illustrative.
 
 ## Projects and changes
 
-### Moment Comments: AI-timed short-video discussion
-[Standalone repository](https://github.com/Eskstrom/moment-comments) · [Figma concept](https://www.figma.com/design/qMnajfGENfkplGhmD8pVNC/Moment-Comments-%25E2%2580%2594-AI-Timed-Short-Video-Concept?node-id=1-2) · [Backed-up SVG board](https://github.com/Eskstrom/moment-comments/blob/main/assets/moment-comments-concept.svg)
+| Project | Focus | Status |
+| --- | --- | --- |
+| [AI Workflow Review](projects/ai-workflow-review/) | Evidence, decisions, and recovery in healthcare automation | Design case study · 10 screens |
+| [CMU Court Reservations](projects/cmu-court-reservations/) | Mobile booking and smartwatch companion | Design refinement in progress |
+| [FastMail Kiosk](projects/fastmail-kiosk/) | Guided shipping and payment recovery | Interactive concept |
+| [Con Alma Partnerships](projects/con-alma/) | University partnership blueprint and ecosystem maps | Service design study |
+| [Watch & Unlock](projects/watch-and-unlock/) | Optional engagement and streaming rewards | 28-screen wireframe prototype |
+| [Shuffle for Comfort Watching](projects/netflix-shuffle/) | Familiar episodes with less browsing | Feature concept |
+| [Moment Comments](https://github.com/Eskstrom/moment-comments) | Discussion connected to video moments | Visual concept · separate repository |
 
-Created a mobile-first concept for keeping social reactions attached to the exact video moment they reference. The model supports two paths: people can explicitly attach or confirm a timestamp, or AI can infer a moment from ordinary comments using transcript, scene and comment-cluster context. Likes help rank representative comments but are not treated as timestamp evidence by themselves.
+## Repository structure
 
-The concept board shows a passive playback bubble, a moment-specific thread, an explicit timestamp composer and creator-facing moment intelligence. The proposed feedback loop combines bubble taps, immediate comment-feed opens, pauses, rewatches, dismissals and manual corrections. A feed open after a moment is treated as a useful correlation, not proof of intent. Future-moment comments must never appear early.
+```text
+projects/
+  ai-workflow-review/       Case study, stories, screen gallery, public assets
+  cmu-court-reservations/   Mobile and smartwatch project overview
+  fastmail-kiosk/           Kiosk overview, links, and verification scope
+  con-alma/                Service-design overview and original board links
+  watch-and-unlock/        Case study, screen gallery, offline prototype
+  netflix-shuffle/         Feature concept and next questions
+notes/                     Historical checkpoint and detailed refinement log
+docs/                      Legacy Pages entry pointing to the main portfolio
+CONTEXT.md                 Original project context
+```
 
-**Status:** visually verified static concept. The Figma frame is editable vector content but is not yet componentized or connected as a clickable prototype. No backend, trained AI, live video integration, production moderation or user validation exists. The project brief and exported SVG are maintained in the standalone Moment Comments repository.
-
-### CMU court reservations: mobile
-[Original workbook](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space) · [New portfolio page](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space?node-id=4606-149)
-
-Preserved the original workbook. Created a separate `Portfolio • Product design` page with seven 390 × 844 frames, Inter typography, CMU red primary actions, consistent cards and explicit sample-data language. The flow now separates discovery, slot choice, review, confirmation, management and cancellation. Imported Simple Design System button components. Repaired body text sizing/auto-height and primary/secondary button label width after creation.
-
-| Frame | Link | Checkpoint |
-|---|---|---|
-| Find a court | [4606:150](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space?node-id=4606-150) | Populated; visually inspected |
-| Choose a time | [4606:151](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space?node-id=4606-151) | Populated; visually inspected |
-| Review booking | [4606:152](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space?node-id=4606-152) | Populated; full visual QA pending |
-| Booking confirmed | [4606:153](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space?node-id=4606-153) | Populated; full visual QA pending |
-| Your bookings | [4606:154](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space?node-id=4606-154) | Populated; full visual QA pending |
-| Cancel booking | [4606:155](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space?node-id=4606-155) | Populated; full visual QA pending |
-| Booking cancelled | [4606:156](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space?node-id=4606-156) | Partially completed |
-
-The seventh screen was copied from confirmation. Its headline is now “Booking cancelled.” and subtitle “Your sample slot has been released.” The next-steps card still contains confirmation instructions, and its buttons still read “Manage booking” and “Book another court.” Correct these before presentation. Prototype connections, error/empty/loading states, accessibility checks and complete frame-fit review remain outstanding. Dates and court data are illustrative; no live reservation integration exists.
-
-### CMU court reservations: smartwatch companion
-[Smartwatch App Prototype](https://www.figma.com/make/RGAbRr2RprARTQoGvNihJw/Smartwatch-App-Prototype)
-
-Figma Make version 3 generated a multi-step companion: sport selection, date, time, review, booking progress, confirmation, booking management and deliberate cancellation. It also reports duplicate prevention, unavailable-slot simulation, ICS export, invitation copying, reset controls and a portfolio explanation panel. Those additional features require separate verification.
-
-**Verified in the browser:** Table Tennis → Today → 9 AM → Review → Confirm → loading → Confirmed → Manage → Cancel → confirmation → Cancelled. Booking count cleared after cancellation.
-
-**Remaining:** test duplicate/recovery paths, export and sharing, keyboard access and narrow viewports. Replace or explicitly label the fixed October 13, 2025 demo date. Review currently identifies “Table 1-4”; select a specific court for an unambiguous reservation. Combine this companion with the mobile redesign in one case study. No live CMU integration or separately published deployment was created.
-
-### FastMail kiosk
-[Fast mail Kiosk](https://www.figma.com/make/gc3I9jqgY0XMzbZ0SOaPKp/Fast-mail-Kiosk)
-
-A refinement prompt generated a new version 3 interface with navy/teal styling, Plus Jakarta Sans typography, clearer package handling and an explicit demo payment context. The generated response reports a ten-step journey: Welcome, Address, Dimensions, Weight, Handling, Pickup, Cost, Review, Payment, Confirmation. It reports address validation, itemized estimates, editable review, simulated payment failure/retry, start-over confirmation and sample/reset controls.
-
-**Verified in version 5:** the saved revision renders; empty address validation appears; package, weight, handling, collection and speed choices are required; the estimate updates from $19.99 to $29.99 when speed changes; review editing preserves other selections; simulated payment decline and retry work; the start-over dialog preserves the order when dismissed and clears it when confirmed. Receipt copy now describes a concept handoff and does not promise an email or live tracking. The full journey still needs keyboard, responsive and physical-kiosk accessibility checks. Generated accessibility and usability assertions are not research results.
-
-### Con Alma: service design
-[University Partnership Outreach & Engagement Workflow](https://www.figma.com/board/7XDNtOq84HYRb0v3eGOMAi/University-Partnership-Outreach---Engagement-Workflow)
-
-Inspected the blueprint covering university outreach, coupons, frontstage/backstage activities, POS validation, social amplification, repeat visits and feedback. No edits made. Next: consolidate duplicate blocks, correct labels, align lanes, add a legend and distinguish proposed actions from observed evidence.
-
-[Service Ecosystem Change and Value Flow: A](https://www.figma.com/board/G9y3K23jmz0EpD43RXctbp/Service-Ecosystem-Change-and-Value-Flow) · [Version B](https://www.figma.com/board/LMRIR8W3eCJumZlTxOMsNK/Service-Ecosystem-Change-and-Value-Flow)
-
-Both ecosystem boards were visually inspected and remain unchanged. They cover partnership activation through distribution, redemption, social amplification, loyalty and feedback. Curate these with the blueprint into one case study; preserve alternate versions. Verify bibliographic references before citing them.
-
-### Netflix Shuffle for Comfort Watching
-[Concept in original workbook](https://www.figma.com/design/W1i2PizUUUvCtPx4EnxpFx/Sumukh-s-Space?node-id=653-53)
-
-Inspected the concept for randomly choosing episodes from previously watched series. No edits made. Next: clarify the user problem, eligibility and playback behavior, controls, failure states and evidence-supported design rationale.
-
-### Watch & Unlock: rewarded advertising for OTT
-
-**[Read the case study and design checkpoint](projects/watch-and-unlock/README.md)** · [28-screen gallery](projects/watch-and-unlock/SCREENS.md) · [Wireframe notes](projects/watch-and-unlock/WIREFRAMES.md) · [Verification](projects/watch-and-unlock/VERIFICATION.md)
-
-Checkpoint: 13 September 2026. A new concept explores optional sponsor engagement in exchange for tokens that unlock viewing benefits. Saved 28 grayscale TV/mobile screens and an offline click-through prototype. Verified the main 5 → 20 → 25 → 0 token journey and selected recovery paths; details and limits are in the verification notes. Three local progress checkpoints were saved; this repository includes the latest verified set.
-
-The Figma draft remains blank because the connector reached its Starter-plan tool limit. SVG import, native Figma components, and full TV remote behavior remain unfinished. Token economics and user benefits are hypotheses; no user research or measured production outcomes are claimed.
-
-### Supporting files
-Community wireframes, Web to Figma, an arrow icon pack, FigJam basics and the team library were listed but not reviewed as independent case studies. Preserve third-party asset attribution. No additional unique project should be inferred from the workbook prototype name alone.
-
-## Research and presentation context
-
-The owner states these are original projects, involved research/testing with specific user groups, and were presented to professors, capstone evaluators, guides and sometimes professional contributors. Participant counts, methods, findings, quotes, measured outcomes and individual project roles beyond authorship have not been supplied. Add real supporting artifacts before writing detailed research or impact claims. Demonstration interactions above are product checks, not user research.
+The project folders link to Figma where it is the editable source. Public documentation does not require Figma access. Concept overviews do not imply finished implementations.
 
 ## Resume order
 
-1. Turn Moment Comments into separate componentized screens and connect the core playback-to-thread prototype.
-2. Test bubble timing, frequency, comprehension and correction with short-video viewers before making usefulness claims.
-3. Complete FastMail keyboard, responsive and physical-kiosk accessibility checks.
-4. Finish CMU cancellation screen copy/actions; inspect every frame and connect the prototype.
-5. Verify smartwatch export, sharing, duplicates and recovery; correct date/court ambiguity.
-6. Document any FastMail issues found during accessibility review before further redesign.
-7. Consolidate the Con Alma service-design narrative while preserving original boards.
-8. Develop the Netflix concept and collect real research artifacts for all case studies.
+1. Complete CMU cancellation copy, prototype connections, and watch recovery checks.
+2. Complete FastMail keyboard, responsive, and physical-kiosk accessibility checks.
+3. Connect and test Moment Comments before making usefulness claims.
+4. Validate Watch & Unlock reward comprehension and economics; complete native Figma construction.
+5. Consolidate Con Alma evidence and develop the comfort-watching concept.
 
-At checkpoint, Figma Starter MCP calls were exhausted. Browser editing remained available and was used to place and export the Moment Comments concept; no paid upgrade was initiated. This repository contains documentation and selected visual exports, not Figma source files. Figma links may require sign-in or file permission.
-
-## Website
-
-`docs/index.html` is a dependency-free GitHub Pages progress hub. Publish from the main branch `/docs` directory. The source of record for detailed changes is this README; update both the website and log as remaining work is completed.
-
+Detailed history and previously verified paths are preserved in the [20 September checkpoint](notes/CHECKPOINT-2026-09-20.md). This organization update does not imply that outstanding design or research tasks were completed.
