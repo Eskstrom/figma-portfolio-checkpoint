@@ -52,3 +52,23 @@ The project folders link to Figma where it is the editable source. Public docume
 5. Consolidate Con Alma evidence and develop the comfort-watching concept.
 
 Detailed history and previously verified paths are preserved in the [20 September checkpoint](notes/CHECKPOINT-2026-09-20.md). This organization update does not imply that outstanding design or research tasks were completed.
+
+<!-- portfolio-future-plans:start -->
+## Future plans and PRD direction
+
+*Planning review: 24 September 2026. These are proposed next steps, not completed work or measured outcomes.*
+
+**Priority recommendation:** Preserve core design evidence.
+
+Prioritize AI Workflow Review and Watch & Unlock while keeping original artifacts and other design work available.
+
+### Next scope
+
+- [ ] Develop healthcare prioritization, stakeholder trade-offs and review/recovery evidence in projects/ai-workflow-review/README.md.
+- [ ] Develop the growth experiment and reward-economics plan in projects/watch-and-unlock/README.md.
+- [ ] Treat other design refinements as a secondary backlog; preserve asset paths used by the portfolio.
+
+### Validation and decision criteria
+
+Keep original experience, public reconstructions, hypothetical concepts and measured findings clearly separated. Do not infer numerical impact from illustrative screens.
+<!-- portfolio-future-plans:end -->

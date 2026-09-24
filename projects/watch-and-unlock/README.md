@@ -40,3 +40,25 @@ This is a concept and storyboard prototype. Token values, advertiser economics, 
 Next steps: create native Figma components and links, validate TV remote navigation, test reward comprehension with viewers, and assess the unit economics of rewards.
 
 [← Return to the design portfolio](../../README.md) · [GitHub profile](https://github.com/Eskstrom)
+
+<!-- portfolio-future-plans:start -->
+## Future plans and PRD direction
+
+*Planning review: 24 September 2026. These are proposed next steps, not completed work or measured outcomes.*
+
+**Priority recommendation:** Prioritize as the existing growth prototype.
+
+Test the optional reward value exchange and its economics before expanding the concept.
+
+### Next scope
+
+- [ ] Test whether viewers understand how rewards are earned, what one redemption buys and how to decline an offer.
+- [ ] Define exposure, opt-in, completion, redemption and later-return events with clear denominators and windows.
+- [ ] Create an experiment plan with a baseline, primary metric, playback/comprehension guardrails and a prespecified decision rule.
+- [ ] Model incremental sponsor value, displaced ad value, reward costs and abuse assumptions; test sensitivity before asserting viable unit economics.
+- [ ] Complete native interaction and TV-navigation validation only to the extent required by the chosen study.
+
+### Validation and decision criteria
+
+Report usability observations separately from a future randomized growth test. Simulated transactions, token values and illustrative economics do not demonstrate retention lift, advertiser value or commercial viability.
+<!-- portfolio-future-plans:end -->

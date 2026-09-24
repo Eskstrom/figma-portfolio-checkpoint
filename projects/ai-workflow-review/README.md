@@ -50,3 +50,24 @@ The same workspace structure supports different decisions: page grids for patien
 ## Public design package
 
 The gallery contains ten static reconstructions of my original screens, individual editable SVGs, and a consolidated board. Records and document illustrations are synthetic; dashboard metrics are illustrative. Outcomes in the case study are qualitative, with no numerical performance claims. The gallery preserves captured interface states; later refinements described in the stories are identified in their artifact notes. Typography and icons are approximate. Figma access permissions remain separate.
+
+<!-- portfolio-future-plans:start -->
+## Future plans and PRD direction
+
+*Planning review: 24 September 2026. These are proposed next steps, not completed work or measured outcomes.*
+
+**Priority recommendation:** Prioritize the healthcare case.
+
+Extend the case with product decisions and evidence while preserving the original sole-designer ownership.
+
+### Next scope
+
+- [ ] Document the user problem, alternatives, scope choices and hospital stakeholder trade-offs for evidence review, confirmation and unresolved verification.
+- [ ] Connect each interaction decision to a proposed operational measure such as review time, correction rate or handoff completeness.
+- [ ] Specify a focused task-based validation plan for negative assessments, failed lookups and manual recovery.
+- [ ] Cross-reference proposed human-review and exception requirements only after checking that they add to the original case.
+
+### Validation and decision criteria
+
+Keep original qualitative outcomes separate from future studies. Public screens remain synthetic reconstructions; do not retrospectively claim PM ownership, production changes or numerical impact that was not established.
+<!-- portfolio-future-plans:end -->
